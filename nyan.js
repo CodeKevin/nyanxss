@@ -43,7 +43,7 @@ if (ie == undefined || ie == 9){
     a.loop = 'loop';
     a.autoplay = 'autoplay';
     a.id = 'sound';
-    a.src = '//soundcloud.com/user966255279/nyan-mp3/download'; // mp3
+    a.src = 'http://www.nyan.cat/music/pirate.mp3'; // mp3
 
     if (a.canPlayType){
     	if (!a.canPlayType('audio/mpeg')){
